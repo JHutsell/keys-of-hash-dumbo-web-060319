@@ -3,7 +3,8 @@ class Hash
     # code goes here
     result = []
     @self.each do |k, v|
-      
+      if arguments.include?(v)
+        
     end
   end
 end
