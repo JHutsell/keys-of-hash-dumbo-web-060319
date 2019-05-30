@@ -4,7 +4,9 @@ class Hash
     result = []
     @self.each do |k, v|
       if arguments.include?(v)
-        
+        result << k
+      end
     end
+    result
   end
 end
